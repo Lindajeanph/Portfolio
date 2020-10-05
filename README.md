@@ -1,1 +1,1 @@
-# Test
+In this project, I created a portfolio website to showcase my front end development skills. The colors, design and information shared is to provide a glimpse of my personality, my abilities and my instrests all in one place. 
