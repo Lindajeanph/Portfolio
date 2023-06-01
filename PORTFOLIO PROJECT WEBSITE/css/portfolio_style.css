@@ -5,8 +5,12 @@ html {
 body {
   background-color:gainsboro;
   font: black;
-  background-image: url("background.jpg");
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;		
   }
+
 
 .navbar {
   overflow: hidden;
@@ -86,7 +90,6 @@ body {
   padding: 10px;
   padding-top: 1.9%;
   height: 400px;
-  background-color: white;
 }
 
 /*bottom left (white square) */
@@ -96,14 +99,14 @@ body {
   padding: 10px;
   padding-top: 3.5%;
   height: 400px;
-  background-color: white;
+  background-color:#d87991;
 }
-
+/* 
 .row:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 /*the titles of each square*/
 h1 {
@@ -208,6 +211,10 @@ h1:hover {
   font-weight: normal;
 }
 
+h2:hover {
+  color: black;
+  font-weight: normal;
+}
 
 button {
   font-family: "Optima";
@@ -240,7 +247,7 @@ button:hover, .form-container .btn:hover{
 footer{
 	margin-top:2%;
 	width:100%;
-	background-color:white;
+	/* background-color:white; */
 	padding: 1%;
 }
 
